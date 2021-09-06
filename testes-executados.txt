@@ -1,6 +1,11 @@
 Matricular Aluno (Caio\Arquitetura\Tests\Unit\Aplicacao\Aluno\MatricularAluno)
  [x] Aluno deve ser adicionado ao repositorio
 
+Aluno (Caio\Arquitetura\Tests\Unit\Dominio\Aluno\Aluno)
+ [x] Adicionar mais de 2 telefones deve lancar excecao
+ [x] Adicionar 1 telefone deve funcionar
+ [x] Adicionar 2 telefone deve funcionar
+
 Telefone (Caio\Arquitetura\Tests\Unit\Dominio\Aluno\Telefone)
  [x] Ddd invalido telefone valido
  [x] Telefone invalido ddd valido

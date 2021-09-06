@@ -22,6 +22,9 @@ class Aluno
 
     public function adicionarTelefone(string $ddd,string$numero ):self
     {
+        if(count($this->telefones()) === 2){
+            throw new AlunoCadastrandoMaisTelefonesQuePermitido();
+        }
         $this->telefones[] = new Telefone($ddd,$numero);
         return $this;
     }
