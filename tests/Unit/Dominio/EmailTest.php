@@ -1,6 +1,6 @@
 <?php
 
-namespace Caio\Arquitetura\Tests\Unit;
+namespace Caio\Arquitetura\Tests\Unit\Dominio;
 
 use Caio\Arquitetura\Dominio\Email;
 use PHPUnit\Framework\TestCase;

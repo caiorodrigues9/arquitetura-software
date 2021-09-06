@@ -17,6 +17,7 @@ class Aluno
     
     public function __construct(private CPF $cpf,private string $nome,private Email $email)
     {
+        $this->telefones = [];
     }
 
     public function adicionarTelefone(string $ddd,string$numero ):self

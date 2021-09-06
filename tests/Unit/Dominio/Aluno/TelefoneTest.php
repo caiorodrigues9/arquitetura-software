@@ -1,6 +1,6 @@
 <?php
 
-namespace Caio\Arquitetura\Tests\Unit\Aluno;
+namespace Caio\Arquitetura\Tests\Unit\Dominio\Aluno;
 
 use Caio\Arquitetura\Dominio\Aluno\Telefone;
 use PHPUnit\Framework\TestCase;
