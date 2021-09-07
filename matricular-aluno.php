@@ -1,8 +1,8 @@
 <?php
 
-use Caio\Arquitetura\Aplicacao\Aluno\MatricularAluno\MatricularAluno;
-use Caio\Arquitetura\Aplicacao\Aluno\MatricularAluno\MatricularAlunoDto;
-use Caio\Arquitetura\Infra\Aluno\RepositorioDeAlunosEmMemoria;
+use Caio\Arquitetura\Academico\Aplicacao\Aluno\MatricularAluno\MatricularAluno;
+use Caio\Arquitetura\Academico\Aplicacao\Aluno\MatricularAluno\MatricularAlunoDto;
+use Caio\Arquitetura\Academico\Infra\Aluno\RepositorioDeAlunosEmMemoria;
 
 require "vendor/autoload.php";
 

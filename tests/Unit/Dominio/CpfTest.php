@@ -2,7 +2,7 @@
 
 namespace Caio\Arquitetura\Tests\Unit\Dominio;
 
-use Caio\Arquitetura\Dominio\CPF;
+use Caio\Arquitetura\Academico\Dominio\CPF;
 use PHPUnit\Framework\TestCase;
 
 class CpfTest extends TestCase

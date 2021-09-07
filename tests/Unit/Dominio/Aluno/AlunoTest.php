@@ -2,10 +2,10 @@
 
 namespace Caio\Arquitetura\Tests\Unit\Dominio\Aluno;
 
-use Caio\Arquitetura\Dominio\Aluno\Aluno;
-use Caio\Arquitetura\Dominio\Aluno\AlunoCadastrandoMaisTelefonesQuePermitido;
-use Caio\Arquitetura\Dominio\CPF;
-use Caio\Arquitetura\Dominio\Email;
+use Caio\Arquitetura\Academico\Dominio\Aluno\Aluno;
+use Caio\Arquitetura\Academico\Dominio\Aluno\AlunoCadastrandoMaisTelefonesQuePermitido;
+use Caio\Arquitetura\Academico\Dominio\CPF;
+use Caio\Arquitetura\Academico\Dominio\Email;
 use PHPUnit\Framework\TestCase;
 
 class AlunoTest extends TestCase

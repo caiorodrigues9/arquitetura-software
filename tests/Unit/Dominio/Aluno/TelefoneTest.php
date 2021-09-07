@@ -2,7 +2,7 @@
 
 namespace Caio\Arquitetura\Tests\Unit\Dominio\Aluno;
 
-use Caio\Arquitetura\Dominio\Aluno\Telefone;
+use Caio\Arquitetura\Academico\Dominio\Aluno\Telefone;
 use PHPUnit\Framework\TestCase;
 
 class TelefoneTest extends TestCase

@@ -2,10 +2,10 @@
 
 namespace Caio\Arquitetura\Tests\Unit\Aplicacao\Aluno;
 
-use Caio\Arquitetura\Aplicacao\Aluno\MatricularAluno\MatricularAluno;
-use Caio\Arquitetura\Aplicacao\Aluno\MatricularAluno\MatricularAlunoDto;
-use Caio\Arquitetura\Dominio\CPF;
-use Caio\Arquitetura\Infra\Aluno\RepositorioDeAlunosEmMemoria as RepositorioDeAlunosEmMemoriaAlias;
+use Caio\Arquitetura\Academico\Aplicacao\Aluno\MatricularAluno\MatricularAluno;
+use Caio\Arquitetura\Academico\Aplicacao\Aluno\MatricularAluno\MatricularAlunoDto;
+use Caio\Arquitetura\Academico\Dominio\CPF;
+use Caio\Arquitetura\Academico\Infra\Aluno\RepositorioDeAlunosEmMemoria as RepositorioDeAlunosEmMemoriaAlias;
 use PHPUnit\Framework\TestCase;
 
 class MatricularAlunoTest extends TestCase

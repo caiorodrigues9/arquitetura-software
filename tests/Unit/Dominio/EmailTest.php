@@ -2,7 +2,7 @@
 
 namespace Caio\Arquitetura\Tests\Unit\Dominio;
 
-use Caio\Arquitetura\Dominio\Email;
+use Caio\Arquitetura\Academico\Dominio\Email;
 use PHPUnit\Framework\TestCase;
 
 class EmailTest extends TestCase
