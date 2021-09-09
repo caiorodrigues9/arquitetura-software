@@ -2,7 +2,7 @@
 
 namespace Caio\Arquitetura\Gamificacao\Dominio\Selo;
 
-use Caio\Arquitetura\Dominio\CPF;
+use Caio\Arquitetura\Shared\Dominio\CPF;
 
 class Selo
 {

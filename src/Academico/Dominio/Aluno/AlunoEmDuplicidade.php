@@ -2,7 +2,7 @@
 
 namespace Caio\Arquitetura\Academico\Dominio\Aluno;
 
-use Caio\Arquitetura\Academico\Dominio\CPF;
+use Caio\Arquitetura\Shared\Dominio\CPF;
 
 class AlunoEmDuplicidade extends \DomainException
 {

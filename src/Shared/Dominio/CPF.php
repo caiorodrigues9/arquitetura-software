@@ -1,6 +1,6 @@
 <?php
 
-namespace Caio\Arquitetura\Academico\Dominio;
+namespace Caio\Arquitetura\Shared\Dominio;
 
 class CPF
 {

@@ -6,7 +6,7 @@ use Caio\Arquitetura\Academico\Dominio\Aluno\Aluno;
 use Caio\Arquitetura\Academico\Dominio\Aluno\AlunoEmDuplicidade;
 use Caio\Arquitetura\Academico\Dominio\Aluno\AlunoNaoEncontrado;
 use Caio\Arquitetura\Academico\Dominio\Aluno\RepositorioAluno;
-use Caio\Arquitetura\Academico\Dominio\CPF;
+use Caio\Arquitetura\Shared\Dominio\CPF;
 
 class RepositorioDeAlunosEmMemoria implements RepositorioAluno
 {

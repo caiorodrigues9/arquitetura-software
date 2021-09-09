@@ -2,7 +2,7 @@
 
 namespace Caio\Arquitetura\Academico\Dominio\Aluno;
 
-use Caio\Arquitetura\Academico\Dominio\CPF;
+use Caio\Arquitetura\Shared\Dominio\CPF;
 use Caio\Arquitetura\Academico\Dominio\Evento;
 
 class AlunoMatriculado implements Evento

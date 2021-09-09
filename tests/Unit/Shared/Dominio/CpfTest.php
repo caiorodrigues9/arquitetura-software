@@ -1,8 +1,8 @@
 <?php
 
-namespace Caio\Arquitetura\Tests\Unit\Dominio;
+namespace Caio\Arquitetura\Tests\Unit\Shared\Dominio;
 
-use Caio\Arquitetura\Academico\Dominio\CPF;
+use Caio\Arquitetura\Shared\Dominio\CPF;
 use PHPUnit\Framework\TestCase;
 
 class CpfTest extends TestCase

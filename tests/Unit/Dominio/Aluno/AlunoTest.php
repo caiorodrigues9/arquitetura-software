@@ -4,7 +4,7 @@ namespace Caio\Arquitetura\Tests\Unit\Dominio\Aluno;
 
 use Caio\Arquitetura\Academico\Dominio\Aluno\Aluno;
 use Caio\Arquitetura\Academico\Dominio\Aluno\AlunoCadastrandoMaisTelefonesQuePermitido;
-use Caio\Arquitetura\Academico\Dominio\CPF;
+use Caio\Arquitetura\Shared\Dominio\CPF;
 use Caio\Arquitetura\Academico\Dominio\Email;
 use PHPUnit\Framework\TestCase;
 

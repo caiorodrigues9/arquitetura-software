@@ -12,11 +12,11 @@ Telefone (Caio\Arquitetura\Tests\Unit\Dominio\Aluno\Telefone)
  [x] Telefone com 8 digitos pode ser representado como string com ddd
  [x] Telefone com 9 digitos pode ser representado como string com ddd
 
-Cpf (Caio\Arquitetura\Tests\Unit\Dominio\Cpf)
- [x] Cpf invalido
- [x] Cpf valido pode ser representado como string
-
 Email (Caio\Arquitetura\Tests\Unit\Dominio\Email)
  [x] Email invalido
  [x] Email valido pode ser representado como string
+
+Cpf (Caio\Arquitetura\Tests\Unit\Shared\Dominio\Cpf)
+ [x] Cpf invalido
+ [x] Cpf valido pode ser representado como string
 
