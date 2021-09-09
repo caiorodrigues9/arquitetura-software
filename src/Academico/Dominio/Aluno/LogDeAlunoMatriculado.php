@@ -2,8 +2,8 @@
 
 namespace Caio\Arquitetura\Academico\Dominio\Aluno;
 
-use Caio\Arquitetura\Academico\Dominio\Evento;
-use Caio\Arquitetura\Academico\Dominio\OuvinteDeEvento;
+use Caio\Arquitetura\Shared\Dominio\Evento\Evento;
+use Caio\Arquitetura\Shared\Dominio\Evento\OuvinteDeEvento;
 
 class LogDeAlunoMatriculado extends OuvinteDeEvento
 {

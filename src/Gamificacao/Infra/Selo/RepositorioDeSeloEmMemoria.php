@@ -2,9 +2,10 @@
 
 namespace Caio\Arquitetura\Gamificacao\Infra\Selo;
 
-use Caio\Arquitetura\Dominio\CPF;
+
 use Caio\Arquitetura\Gamificacao\Dominio\Selo\RepositorioDeSelo;
 use Caio\Arquitetura\Gamificacao\Dominio\Selo\Selo;
+use Caio\Arquitetura\Shared\Dominio\CPF;
 
 class RepositorioDeSeloEmMemoria implements RepositorioDeSelo
 {

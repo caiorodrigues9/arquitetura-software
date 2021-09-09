@@ -6,16 +6,18 @@ use Caio\Arquitetura\Academico\Dominio\Aluno\Aluno;
 use Caio\Arquitetura\Academico\Dominio\Aluno\AlunoMatriculado;
 use Caio\Arquitetura\Academico\Dominio\Aluno\LogDeAlunoMatriculado;
 use Caio\Arquitetura\Academico\Dominio\Aluno\RepositorioAluno;
-use Caio\Arquitetura\Academico\Dominio\PublicadorDeEvento;
+use Caio\Arquitetura\Gamificacao\Aplicacao\GeraSeloDeNovato;
+use Caio\Arquitetura\Gamificacao\Infra\Selo\RepositorioDeSeloEmMemoria;
+use Caio\Arquitetura\Shared\Dominio\Evento\PublicadorDeEvento;
+
 
 class MatricularAluno
 {
-    private PublicadorDeEvento $publicador;
 
-    public function __construct(private RepositorioAluno $repositorioAluno)
+
+    public function __construct(private RepositorioAluno $repositorioAluno, private PublicadorDeEvento $publicador)
     {
-        $this->publicador = new PublicadorDeEvento();
-        $this->publicador->adcionarOuvinte(new LogDeAlunoMatriculado());
+
     }
 
     public function executa(MatricularAlunoDto $dados):void
